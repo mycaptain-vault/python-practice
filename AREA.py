@@ -1,4 +1,6 @@
-Radius=1.1
+
+radius_input=input("Enter the radius of the circle: ")
+radius=float(radius_input)
 pi=3.14
-Area=pi*Radius*Radius
-print("Area of the circle is: ",Area)
+area=pi*radius*radius
+print("Area of the circle is: ",area)
